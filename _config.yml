@@ -44,6 +44,9 @@ projects:
     image: https://i.imgur.com/F8eo1vH.gif
 
 social:
+  - service: keybase
+    username: limeth
+    link: http://keybase.io/limeth
   - service: github
     username: Limeth
     link: https://github.com/Limeth
