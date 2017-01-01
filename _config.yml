@@ -1,0 +1,56 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Limeth's thoughts"
+description: > # this means to ignore newlines until "baseurl:"
+  Get in touch with me on social media.
+repository: https://github.com/Limeth/limeth.github.io
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: https://limeth.keybase.pub  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+your_name: Jakub Hlusička
+email: limeth@protonmail.com
+
+navigation:
+  - text: Home
+    url: /
+  - text: Projects
+    url: /projects
+
+projects:
+  - name: euclider
+    description: A non-euclidean ray tracing prototype written in Rust.
+    link: https://github.com/Limeth/euclider
+    image: https://raw.githubusercontent.com/Limeth/euclider/master/preview_3_deep_reflection.png
+  - name: CustomItemLibrary
+    description: Create custom items with client-side resource packs and server-side behavior!
+    link: https://github.com/Limeth/CustomItemLibrary
+    image: https://i.imgur.com/F8eo1vH.gif
+
+social:
+  - service: github
+    username: Limeth
+    link: https://github.com/Limeth
+  - service: twitter
+    username: LimethCode
+    link: https://twitter.com/LimethCode
+
+# Plugins
+gems:
+  - jekyll-seo-tag
